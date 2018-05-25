@@ -16,7 +16,7 @@ contract SmartAcademy is Whitelist {
 		
 	}
 	
-	mapping (bytes32 => IssuingEntity) private hashList_;
+	mapping (bytes32 => IssuingEntity) private issuingEntities;
 
   /**
    * @notice Create a new SmartAcademy Contract.
